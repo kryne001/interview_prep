@@ -28,7 +28,7 @@ public class App {
         else if (target > nums[nums.length - 1])
         {
             start = 0;
-            end = pivot - 1;
+            end = pivot-1;
         }
         else 
         {
@@ -78,7 +78,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         App myApp = new App();
         int[] nums = {8,9,2,3,4};
-        int answer = myApp.search(nums, 5);
+        int answer = myApp.search(nums, 4);
         System.out.println("answer is: " + answer);
     }
 }
